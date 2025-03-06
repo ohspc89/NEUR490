@@ -1,2 +1,3 @@
 # NEUR490
-R scripts prepared to preprocess ELAN output
+
+This repository is prepared to share R scripts prepared to preprocess .txt files.
