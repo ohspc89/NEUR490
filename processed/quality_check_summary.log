@@ -1,0 +1,771 @@
+[1] "TD13-M3_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+   label UPPER PROPER
+19    N?  TRUE  FALSE
+34  MDX?  TRUE  FALSE
+
+[1] "TD13-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M3_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M3_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M4_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M4_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M4_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M4_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD13-M4_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M3_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M3_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M3_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M3_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M4_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M4_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M4_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M4_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M4_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD17-M4_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M3_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M3_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M4_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M4_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M4_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M4_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD24-M4_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD27-M4_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD27-M4_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD27-M4_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD27-M4_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M3_A2R1_CC.txt"
+$last_offsets_match
+[1] FALSE
+
+$continuously_coded
+[1] "Tier: LA; rows: 19-20; values differ: 59700 vs. 60640"
+[2] "Tier: LA; rows: 20-21; values differ: 61377 vs. 59700"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M3_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M3_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M3_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M4_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M4_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M4_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M4_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M4_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD30-M4_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M3_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M3_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "Tier: RA; rows: 8-9; values differ: 24130 vs. 25120"  
+[2] "Tier: RA; rows: 9-10; values differ: 26290 vs. 24130" 
+[3] "Tier: RA; rows: 10-11; values differ: 25120 vs. 26290"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M4_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M4_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M4_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M4_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M4_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31-M4_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD54-M3_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD54-M3_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD54-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD54-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "Tier: RA; rows: 13-14; values differ: 45190 vs. 46510"
+[2] "Tier: RA; rows: 14-15; values differ: 48250 vs. 45190"
+[3] "Tier: RA; rows: 15-16; values differ: 46510 vs. 48250"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD54-M3_A6R5_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD54-M3_A7R6_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD55-M3_A2R1_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD55-M3_A3R2_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD55-M3_A4R3_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD55-M3_A5R4_CC.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD27M3A2R1_KC.txt"
+[1] "TD27M3A3R2_KC.txt"
+[1] "TD27M3A4R3_KC.txt"
+[1] "TD27M3A5R4_KC.txt"
+[1] "TD27M3A6R5_KC.txt"
+[1] "TD27M3A7R6_KC.txt"
+[1] "TD31M3A2.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
+[1] "TD31M3A3.txt"
+$last_offsets_match
+[1] TRUE
+
+$continuously_coded
+[1] "No onset-offset mismatch found"
+
+$proper_labels
+[1] label  UPPER  PROPER
+<0 rows> (or 0-length row.names)
+
