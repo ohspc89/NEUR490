@@ -1,0 +1,7 @@
+{
+    "filename": "name of the .txt file (ELAN coding output) that contains rows indicating failed continuous coding",
+    "tier": "recorded tier (ex. 'LA', 'RA')",
+    "rows": "two adjacent rows joined by '-'; the offset of the first row and the onset of the second row are compared",
+    "prev_value": "the offset (in milliseconds) of the first row",
+    "next_value": "the onset (in milliseconds) of the second row"
+}
