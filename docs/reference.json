@@ -1,0 +1,7 @@
+{
+    "subj": "subject id",
+    "month": "month of the recording coded",
+    "act": "activity?",
+    "prefix": "prefix of a .txt file (ELAN output) in the format: TD[0-9][0-9]-M[0-9]_A[0-9]",
+    "path": "path to the .txt file of a given combination of subj, month, and activity; assumes the parent path of '/Smith, Beth - Reach & Grasp' of the OneDrive folder"
+}
