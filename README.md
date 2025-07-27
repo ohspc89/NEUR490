@@ -1,4 +1,4 @@
-# 🧠 NEUR490: ELAN Behavior Coding QC Pipeline
+# 🧹 cleanAnnotateR: ELAN Behavior Coding QC Pipeline
 
 This repository contains a modular, R-based ETL and quality control (QC) pipeline developed to validate behavioral annotation data exported from [ELAN](https://archive.mpi.nl/tla/elan), used in infant motor control research at CHLA.
 
