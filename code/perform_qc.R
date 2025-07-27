@@ -16,13 +16,17 @@ package_list = c('fs', 'stringr', 'purrr')
 Require::Require(package_list, require=T)
 
 # This will return error if you did not complete 2) above.
+# [JO] Folder naming nomenclature changed - 'path' column will have
+# many duplicates.
 references = read.csv('../processed/reference.tsv', sep='\t')
 # Some problematic folders rejected for now (March 5, 2025)
 subdirs_temp = references$path
 idx_spare = !grepl("Data/TD27/TD27M3", subdirs_temp)
-subdirs = subdirs_temp[idx_spare]
-prefixes_temp = references$prefix
-prefixes = prefixes_temp[idx_spare]
+# [JO] Remove duplicates using `unique`
+subdirs = unique(subdirs_temp[idx_spare])
+# [JO] No longer in use - because folder naming nomenclature changed
+# prefixes_temp = references$prefix
+# prefixes = prefixes_temp[idx_spare]
 
 # You also need to load this R script to use functions I wrote.
 source('qc_functions.R')
@@ -38,47 +42,21 @@ your_wkdir = getwd()
 HOME = path_home()
 
 # OneDrive specific
-Mac_OneDrive_PATH = 'Library/CloudStorage/OneDrive-SharedLibraries-ChildrensHospitalLosAngeles/Smith, Beth - Reach & Grasp'
+Mac_OneDrive_PATH = 'Library/CloudStorage/OneDrive-ChildrensHospitalLosAngeles/EEG reaching R01/Analysis/Behavior Coding/Reach & Grasp/Data'
 
 # combine the two
 user_path = paste0(HOME, '/', Mac_OneDrive_PATH)
 
 # paths to .txt files
-# ex) /Users/joh/Library/.../TD17/TD17M3/TD17M3A2
+# ex) /Users/joh/Library/.../Data/TD17/TD17_M3
 txtpaths = file.path(user_path, subdirs)
 
-# `txt_files` will store full file paths of the
-# target .txt files
-# `dir_ls()` is a function of `fs` package.
-# It returns a named character vector.
-# using `unname()` is not critical.
-# txt_files = vector()
-# for (i in 1:length(txtpaths)){
-#     txt_files = c(txt_files,
-#                   unname(dir_ls(txtpaths[i],
-#                                 regex=paste0(prefixes[i],
-#                                              "R[0-9]_CC\\.txt$"))))
-# }
-
-# This is an advanced option using `map()` from 
-# `purrr` package.
-# Note. '<-' is originally R's operator used instead of '='
-txt_files <- map2(txtpaths, prefixes,
-                  ~ dir_ls(.x, regex = paste0(.y,
-                                              "R[0-9]_CC\\.txt$"))) |>
-unlist() |>
-unname()
-
-# [PROBLEMATIC] Add files in /TD27/TD27M3
-TD27M3_path = file.path(user_path, "DATA/TD27/TD27M3")
-txt_files = c(txt_files,
-              unname(dir_ls(TD27M3_path,
-                            regex="TD27M3A[0-9]R[0-9]_KC\\.txt$")))
-
-# Also noticed that TD31M3A2, TD31M3A3 are named incorrectly
-txt_files = c(txt_files,
-              file.path(user_path, 'DATA/TD31/TD31M3/TD31M3A2/TD31M3A2.txt'),
-              file.path(user_path, 'DATA/TD31/TD31M3/TD31M3A3/TD31M3A3.txt'))
+# [JO] Previous lines wouldn't work, because file/folder names have changed
+# since I first wrote this script. These two lines should work.
+# You need to make sure that each TD has only one coder's coding output
+# ex. TD73-M5A6_AG.txt and TD73-M5A6_CC.txt must not stay together in 'TD73_M5' folder.
+files <- dir_ls(txtpaths)                           # list all files in folders
+txt_files <- files[str_detect(files, "\\.txt$")]    # filter the .txt files
 
 # There can be different ways to report the quality check output.
 # 1. You can create a long .log file.

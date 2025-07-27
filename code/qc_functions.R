@@ -8,6 +8,8 @@
 # Written by Jinseok Oh, March 5, 2025
 # per request of Dr. Erika Garcia Mora & Christina Choi.
 
+# Editied: July 26, 2025
+
 
 make.table = function(path){
 
@@ -15,20 +17,29 @@ make.table = function(path){
     #'
     #' @param path path to the .txt file to read
 
-    # Each .txt should have five columns, if properly exported.
-    colnames = c('tier', 'onset', 'offset', 'duration', 'label')
+    # Each .txt should have SIX columns, if properly exported.
+    colnames5 = c('tier', 'onset', 'offset', 'duration', 'label')   # old .txt
+    colnames6 = c('tier', 'activity', 'onset', 'offset', 'duration', 'label')
     # Read the txt file and save to a variable: `table`.
     # Provide the column names - so your `table` will be like:
     #
-    # | tier | onset | offset | duration | label |
-    # |------|-------|--------|----------|-------|
-    # | LA   | 0     | 5000   | 5000     | MO    |
-    # |------|-------|--------|----------|-------|
-    # | ...  | ...   | ...    | ...      | ...   |
+    # | tier | activity  | onset | offset | duration | label |
+    # |------|-----------|-------|--------|----------|-------|
+    # | LA   | TD05-M4A3 | 0     | 5000   | 5000     | MO    |
+    # |------|-----------|-------|--------|----------|-------|
+    # | ...  | ...       | ...   | ...    | ...      | ...   |
     result = tryCatch({
-        table = read.table(path, col.names=colnames)
-        if (ncol(table) != length(colnames))
-            stop("Column mismatch in file: ", path)
+        table = read.table(path, stringsAsFactors = FALSE)
+        n = ncol(table)
+        if (n == length(colnames5)) {
+            colnames(table) <- colnames5
+        }
+        else if (n == length(colnames6)) {
+            colnames(table) <- colnames6
+        }
+        else {
+            stop("Unexpected number of columns (", n, ") in file: ", path)
+        }
         return(table)
     }, error=function(e) {
         stop("Error reading file ", path, "; ", conditionMessage(e))
@@ -61,7 +72,7 @@ qc.lastoffset = function(table){
         # The third column of `table` is 'offset'.
         # Row indices are given conditionally (get the rows
         # whose 'tier' column values are the same as the i-th tier. 
-        offsets = table[table$tier == tiers[i], 3]
+        offsets = table[table$tier == tiers[i], 'offset']
         last_offsets[i] = tail(offsets, 1) # Get the last offset directly
     }
     # ALL `last_offset` values should be the same.
@@ -98,8 +109,8 @@ qc.continuous = function(table){
         # By choosing the first ([1]) output of `dim(subset)`,
         # we are getting the number of rows of `subset`.
         for (i in 2:dim(subset)[1]){
-            prev_offset = subset[i-1, 3]
-            current_onset = subset[i, 2]
+            prev_offset = subset[i-1, 'offset']
+            current_onset = subset[i, 'onset']
             # If there's a mismatch, a message will be stored.
             # The format of the message will be:
             # 'Tier: {tier}; rows: {i}-{i+1}; values differ: {prev_offset} vs. {current_onset}'
@@ -137,7 +148,7 @@ qc.label = function(table){
     # Third level (if second level was D):
     #   T (touch) | G (grasp) | X (no touch)
 
-    your_labels = table[, 5]    # Get all labels
+    your_labels = table[, 'label']    # Get all labels
 
     # check if all labels are uppercase
     all_upper = your_labels == toupper(your_labels)
