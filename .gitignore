@@ -1,0 +1,17 @@
+# R-specific
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Output files
+processed/
+*.log
+*.tsv
+
+# Input files
+*.xlsx
+
+# OS-specific files
+.DS_Store
+Thumbs.db

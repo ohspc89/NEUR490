@@ -29,12 +29,15 @@ This project:
 
 ```
 NEUR490/
+├── .gitignore
+├── LICENSE
 ├── code/
 │   ├── fetch_ids.R         # Extract IDs & paths from Excel
 │   ├── perform_qc.R        # Run QC procedures on annotation files
 │   └── qc_functions.R      # Core QC logic
 ├── docs/                   # Related documentation
-├── processed/              # Output .tsv and log files
+│   └── schema/             # Metadata of output .tsv
+├── processed/              # Output .tsv and log files (gitignored)
 └── README.md
 ```
 
