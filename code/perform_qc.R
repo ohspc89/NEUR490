@@ -163,6 +163,6 @@ colnames(continuous) = c('filename', 'tier', 'rows',
 write.table(continuous, '../processed/qc_continuous.tsv', sep='\t',
             row.names=F, col.names=T, quote=F)
 properlabels = data.frame(proper_issue)
-colnames(properlabels) = c('filename', 'row#', 'label')
+colnames(properlabels) = c('filename', 'row', 'label')
 write.table(properlabels, '../processed/qc_labels.tsv', sep='\t',
             row.names=F, col.names=T, quote=F)

@@ -1,5 +1,0 @@
-{
-    "filename": "name of the .txt file (ELAN coding output) that contains aberrant labels",
-    "row#": "the row number of the label",
-    "label": "label detected as not following the rule"
-}
