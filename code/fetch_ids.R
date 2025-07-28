@@ -65,7 +65,7 @@ months = vector()   # ex. M3
 acts = vector()     # ex. A4
 prefixes = vector() # ex. TD17-M3_A4
                     # full filename ex: TD17-M3_A4R3_CC.txt
-paths = vector()    # ex. TD17/TD17M3/TD17M3A4
+paths = vector()    # ex. TD17/TD17_M3
 # [JO] The conditional (i.e. `row[j] %in% c('1')`) returned TRUE
 # because of R's type coercion behavior.
 # In other programming languages this may return an error, because
@@ -116,12 +116,12 @@ for (i in 1:dim(m345)[1]){
 }
 
 # Reference table looks like...
-# +------+-------+-----+------------+---------------------------+
-# | subj | month | act | prefix     | path                      |
-# |------|-------|-----|------------|---------------------------|
-# | TD17 | M3    | A2  | TD17-M3_A2 | Data/TD17/TD17M3/TD17M3A2 |
-# |------|-------|-----|------------|---------------------------|
-# | ...  | ...   | ... | ...        | ...                       |
+# +------+-------+-----+------------+---------------+
+# | subj | month | act | prefix     | path          |
+# |------|-------|-----|------------|---------------|
+# | TD17 | M3    | A2  | TD17-M3_A2 | TD17/TD17_M3  |
+# |------|-------|-----|------------|---------------|
+# | ...  | ...   | ... | ...        | ...           |
 tab = data.frame(subj=subj,
                  month=months,
                  act=acts,
