@@ -28,7 +28,7 @@ This project:
 ## 🧩 File Structure
 
 ```
-NEUR490/
+cleanAnnotateR/
 ├── .gitignore
 ├── LICENSE
 ├── code/
